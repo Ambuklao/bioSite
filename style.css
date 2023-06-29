@@ -231,10 +231,12 @@ nav ul {
   flex-wrap: wrap;
   padding: 50px 0; }
   .hobby-introSection .image-wrap {
-    width: 40%; }
+    width: 40%;
+	border-radius: 10px;}
     @media screen and (max-width: 1000px) {
       .hobby-introSection .image-wrap {
-        width: 100%; } }
+        width: 100%;
+		border-radius: 10px;} }
   .hobby-introSection .content-wrap {
     width: 60%;
     padding-left: 5%;
@@ -246,6 +248,10 @@ nav ul {
         order: -1; } }
     .hobby-introSection .content-wrap p {
       margin-bottom: 20px; }
+ .hobby-introSection .image-wrap img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px; }
 
 .secondContent-section {
   width: 100%;
@@ -255,8 +261,12 @@ nav ul {
   .secondContent-section .image-wrap {
     margin: 0 auto 25px; }
     .secondContent-section .image-wrap img {
-      display: block;
-      max-width: 100%; }
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+      max-width: 100%;
+	  
+	  border-radius: 10px;}
   .secondContent-section .content-wrap {
     padding: 0 30px;
     margin-bottom: 50px; }
