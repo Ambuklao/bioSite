@@ -15,7 +15,8 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+}
 
 .wrapper {
   width: 100%;
