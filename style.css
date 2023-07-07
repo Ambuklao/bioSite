@@ -99,7 +99,8 @@ figcaption {
 
 .btn-aboutme {
   background: #a2d2ff;
-  margin: 20px 0; }
+  margin: 20px 0; 
+  box-shadow: 10px 10px 5px grey;}
   .btn-aboutme:hover {
     background: #bbd0ff; }
 
@@ -156,7 +157,8 @@ nav ul {
   .heroSection-home .image-wrap img {
     width: 100%;
     object-fit: cover;
-    border-radius: 10px; }
+    border-radius: 10px; 
+	box-shadow: 10px 10px 5px grey;}
 
 .introSection-about {
   display: flex;
@@ -187,7 +189,8 @@ nav ul {
     .introSection-about .image-wrap img {
       width: 100%;
       object-fit: cover;
-      border-radius: 10px; }
+      border-radius: 10px; 
+	  box-shadow: 10px 10px 5px grey;}
 
 .split-section {
   display: flex;
@@ -209,7 +212,8 @@ nav ul {
   .split-section .image-wrap img {
     display: block;
     max-width: 100%;
-    border-radius: 10px; }
+    border-radius: 10px; 
+	box-shadow: 10px 10px 5px grey;}
   @media screen and (max-width: 1000px) {
     .split-section .image-wrap {
       order: 2; } }
@@ -252,7 +256,8 @@ nav ul {
  .hobby-introSection .image-wrap img {
     display: block;
     max-width: 100%;
-    border-radius: 10px; }
+    border-radius: 10px; 
+	box-shadow: 10px 10px 5px grey;}
 
 .secondContent-section {
   width: 100%;
@@ -266,8 +271,8 @@ nav ul {
 	  margin-left: auto;
 	  margin-right: auto;
       max-width: 100%;
-	  
-	  border-radius: 10px;}
+	  border-radius: 10px;
+	  box-shadow: 10px 10px 5px grey;}
   .secondContent-section .content-wrap {
     padding: 0 30px;
     margin-bottom: 50px; }
